@@ -13,9 +13,9 @@ const ll INF = 1e9;
  
  
 void solve() {
-    int X1,Y1,X2,Y2;
-    cin>>X1>>Y1>>X2>>Y2;
-    cout<<std::min((X1+Y1),(X2+Y2))<<endl;
+    int N,K,X,Y;
+    cin>>N>>K>>X>>Y;
+    cout<< (K*X + ((N-K)*min(X,Y))) <<endl;
 }
  
  
